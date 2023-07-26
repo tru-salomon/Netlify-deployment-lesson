@@ -2,11 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import.meta.env.VITE_DAN_VAR
+
+console.log('Dan is '`${meta.env.VITE_DAN_VAR}`)
 
 function App() {
   const [count, setCount] = useState(0)
-
+    
   return (
+    
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
